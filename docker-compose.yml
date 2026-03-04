@@ -17,7 +17,7 @@ services:
     ports:
       - "3001:3000"
   fitness-app:
-    image: muralisocial123/ust-practice-fitness
+    image: muralisocial123/ust-practice-fitness:v1.1.0
     container_name: fitness-app
     ports:
       - "5001:5000"
